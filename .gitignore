@@ -53,6 +53,7 @@ cover/
 .envrc
 app.py/
 
+
 # Translations
 *.mo
 *.pot
