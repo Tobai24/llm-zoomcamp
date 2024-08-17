@@ -3,7 +3,7 @@ blocks:
   color: null
   configuration:
     file_source:
-      path: rager/data_loaders/invincible_behemoth.py
+      path: homework/data_loaders/dauntless_behemoth.py
   downstream_blocks: []
   executor_config: null
   executor_type: local_python
@@ -11,18 +11,18 @@ blocks:
   - ingest
   has_callback: false
   language: python
-  name: Invincible behemoth
+  name: Dauntless behemoth
   retry_config: null
   status: not_executed
   timeout: null
   type: data_loader
   upstream_blocks: []
-  uuid: invincible_behemoth
+  uuid: dauntless_behemoth
 - all_upstream_blocks_executed: true
   color: null
   configuration:
     file_source:
-      path: homework/transformers/invincible_fission.py
+      path: homework/transformers/mesmerizing_rift.py
   downstream_blocks: []
   executor_config: null
   executor_type: local_python
@@ -30,18 +30,18 @@ blocks:
   - chunking
   has_callback: false
   language: python
-  name: Invincible fission
+  name: Mesmerizing rift
   retry_config: null
   status: not_executed
   timeout: null
   type: transformer
   upstream_blocks: []
-  uuid: invincible_fission
+  uuid: mesmerizing_rift
 - all_upstream_blocks_executed: true
   color: null
   configuration:
     file_source:
-      path: homework/transformers/numinous_enigma.py
+      path: homework/transformers/ineffable_mirage.py
   downstream_blocks: []
   executor_config: null
   executor_type: local_python
@@ -49,18 +49,18 @@ blocks:
   - tokenization
   has_callback: false
   language: python
-  name: Numinous enigma
+  name: Ineffable mirage
   retry_config: null
   status: not_executed
   timeout: null
   type: transformer
   upstream_blocks: []
-  uuid: numinous_enigma
+  uuid: ineffable_mirage
 - all_upstream_blocks_executed: true
   color: null
   configuration:
     file_source:
-      path: homework/transformers/resonant_titan.py
+      path: homework/transformers/dazzling_aurora.py
   downstream_blocks: []
   executor_config: null
   executor_type: local_python
@@ -68,13 +68,13 @@ blocks:
   - embed
   has_callback: false
   language: python
-  name: Resonant titan
+  name: Dazzling aurora
   retry_config: null
   status: not_executed
   timeout: null
   type: transformer
   upstream_blocks: []
-  uuid: resonant_titan
+  uuid: dazzling_aurora
 - all_upstream_blocks_executed: true
   color: null
   configuration:
@@ -82,50 +82,14 @@ blocks:
       content: null
       extension: py
       language: python
-      modified_timestamp: 1723855654
-      name: prismatic_pinnacle.py
+      modified_timestamp: 1723860038
+      name: elemental_vortex.py
       output: null
-      path: /home/src/llm/homework/data_loaders/prismatic_pinnacle.py
-      relative_path: llm/homework/data_loaders/prismatic_pinnacle.py
-      size: 1493
-    file_source:
-      path: homework/data_loaders/prismatic_pinnacle.py
-    templates:
-      elasticsearch:
-        variables:
-          chunk_column: chunk
-          connection_string: http://elasticsearch:9200
-          index_name: documents
-          vector_column_name: embedding
-  downstream_blocks: []
-  executor_config: null
-  executor_type: local_python
-  groups:
-  - iterative_retrieval
-  has_callback: false
-  language: python
-  name: Prismatic pinnacle
-  retry_config: null
-  status: not_executed
-  timeout: null
-  type: data_loader
-  upstream_blocks: []
-  uuid: prismatic_pinnacle
-- all_upstream_blocks_executed: true
-  color: null
-  configuration:
-    file:
-      content: null
-      extension: py
-      language: python
-      modified_timestamp: 1723857880
-      name: celestial_helix.py
-      output: null
-      path: /home/src/llm/homework/data_exporters/celestial_helix.py
-      relative_path: llm/homework/data_exporters/celestial_helix.py
+      path: /home/src/llm/homework/data_exporters/elemental_vortex.py
+      relative_path: llm/homework/data_exporters/elemental_vortex.py
       size: 2054
     file_source:
-      path: homework/data_exporters/celestial_helix.py
+      path: homework/data_exporters/elemental_vortex.py
     templates:
       elasticsearch:
         variables:
@@ -142,18 +106,18 @@ blocks:
   - vector_database
   has_callback: false
   language: python
-  name: Celestial helix
+  name: Elemental vortex
   retry_config: null
   status: not_executed
   timeout: null
   type: data_exporter
   upstream_blocks: []
-  uuid: celestial_helix
+  uuid: elemental_vortex
 cache_block_output_in_memory: false
 callbacks: []
 concurrency_config: {}
 conditionals: []
-created_at: '2024-08-17 00:36:14.801879+00:00'
+created_at: '2024-08-17 01:54:58.014719+00:00'
 data_integration: null
 description: null
 execution_framework: rag
@@ -161,7 +125,7 @@ executor_config: {}
 executor_count: 1
 executor_type: null
 extensions: {}
-name: Bewitching catalyst
+name: Celestial hologram
 notification_config: {}
 remote_variables_dir: null
 retry_config: {}
@@ -171,8 +135,8 @@ settings:
 spark_config: {}
 tags: []
 type: python
-uuid: bewitching_catalyst
+uuid: celestial_hologram
 variables:
-  index_name: documents_20240817_0126
+  index_name: documents_20240817_0222
 variables_dir: /home/src/mage_data/homework
 widgets: []
