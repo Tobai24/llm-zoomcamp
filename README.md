@@ -10,8 +10,14 @@ A course for learning how to build AI systems that answer questions about your k
 - Basics of LLMs and Retrieval-Augmented Generation (RAG)
 - OpenAI API and text search with Elasticsearch
 
-#### [Module 2: Vector Search](02-vector-search/)
+#### [Module 2: Vector Search](2025-02-vector-search/)
 
 - Vector search and embeddings
 - Indexing and retrieving data efficiently
 - Using Qdrant as the vestor database
+
+#### [Module 3: Evaluation](2025-03-evaluation/)
+
+- Search evaluation
+- Online vs offline evaluation
+- LLM as a Judge
